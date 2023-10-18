@@ -14,27 +14,27 @@ function AgeCalculator() {
   };
 
   const containerStyle = {
-    marginTop: '100px',
-    padding: '90px',
+    marginTop: '0px',
+    padding: '0px',
   };
 
   const buttonStyle = {
     backgroundColor: '#3897f0',
     color: 'white',
-    padding: '15px 20px',
+    padding: '13px 20px',
     border: 'none',
     cursor: 'pointer',
     margin: '20px 0', 
   };
   const inputStyle = {
-    height : '40px',
-    width  :'250px', 
+    height : '5px',
+    width  :'300px', 
   };
 
   return (
     <div style={containerStyle}>
       <h1>Age Calculator</h1>
-      <h3>Enter your date of birth:</h3>
+      <h5>Enter your date of birth:</h5>
       <br />
       <input
         type="date"
